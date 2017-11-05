@@ -10,6 +10,8 @@ export class MovieService {
         id: 1,
         name: 'Thor'
     }
+
+
     getMovie(): Promise<Movie> {
 
         return Promise.resolve(this.movie);
